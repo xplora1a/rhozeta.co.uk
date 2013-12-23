@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" 
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-type" content="application/xhtml+xml; charset=utf-8" />
+ <meta http-equiv="Content-language" content="en-gb" />
+ <title>Search</title>
+</head>
+<body>
+<h1>Web Search</h1>
+<form method="get" action="http://www.google.com/search"><div>
+      <input type="hidden" name="ie" value="UTF-8" />
+      <input type="hidden" name="oe" value="UTF-8" />
+      <input type="text" name="q" size="55" maxlength="255" value="" />&nbsp;
+      <input type="hidden" name="safe" value="strict" />
+      <input type="submit" name="sa" value="Google" />
+</div></form>
+
+<form method="post" action="https://duckduckgo.com/html" id="hfh" ><div>
+	<input type="text" name="q" size="55" maxlength="255" id="hfih" value="" />&nbsp;
+	<input id="hfbh" type="submit" value="DuckDuckGo" />
+</div></form>
+
+
+<form accept-charset="UTF-8" action="http://search.dmoz.org/cgi-bin/search" method="get">
+	<div>
+		<input size="55" name="search" />&nbsp;
+		<input type="submit" value="dmoz.org" />
+		<a href="http://search.dmoz.org/cgi-bin/search?a.x=0"><small><i>advanced</i></small></a>
+	</div>
+</form>
+
+<form accept-charset="UTF-8" action="http://www.wolframalpha.com/input/" id="calculate" method="get">
+	<div>
+		<input  name="i" id="i" size="55" maxlength="200" type="text" />&nbsp;
+		<input type="submit" id="equal" title="Compute" value="Wolfram Alpha" />
+	</div>
+</form>
+
+<fieldset><h2><a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></h2>
+<form action="http://en.wikipedia.org/wiki/Special:Search" >
+	<div>
+		<input name="search" type="text" size="55" value="" />&nbsp;
+		<input type="submit" name="go" value="Go" />&nbsp;
+		<input type="submit" name="fulltext" value="Wikipedia" />
+	</div>
+</form>
+
+<form action="http://en.wiktionary.org/w/index.php" >
+	<div>
+		<input type='hidden' name="title" value="Special:Search" />
+		<input name="search" type="text" size="55" title="Search Wiktionary [f]" value="" />&nbsp;
+		<button id="searchButton" type="submit" title="Wiktionary">Wiktionary</button>
+	</div>
+</form>
+</fieldset>
+
+<h2>UK Telephone Code Locator</h2>
+<form method="get" action="http://www.ukphoneinfo.com/cgi-bin-Phones/nng">
+		 <table><tr>
+		 	<td align="right">Telephone Number&nbsp;&nbsp;</td>
+		 	<td><input name="GNG" /></td></tr>
+		 	<tr><td align="right"><input type="submit" value="Search" /></td></tr>
+		 </table>
+</form>
+
+
+<fieldset>
+<h2><a href="http://www.openstreetmap.org/">Open Street Map</a></h2>
+<form action="http://www.openstreetmap.org/" method="get" >
+	<div>
+		<input id="query" name="query" type="text" value="" />&nbsp;
+		<input type="submit" value="OpenStreetMap" />
+	</div>
+</form>
+
+
+<h2><a href="http://maps.google.co.uk/maps?&amp;hl=en&amp;ll=52.562995,-4.108887&amp;spn=4.969875,12.875977" >Google Maps</a></h2>
+
+<form action="http://maps.google.co.uk/maps">
+	<div>
+		<input type="hidden" name="f" value="l" />
+		<input type="hidden" name="hl" value="en" />
+		What&nbsp;<input type="text" name="q" size="20" />
+		Where&nbsp;<input type="text" name="near" size="32" />&nbsp;
+		<input type="submit" value="GoogleMaps" />
+	</div>
+</form>
+</fieldset>
+
+
+
+<h2><a href="http://www.yell.com/">YELL.com</a> Electronic Yellow Pages Search</h2>
+<form method="get" action="http://search.yell.com/search/DoSearch" >
+	<div>
+		 <input type="hidden" name="state" value="INI" />
+		 <input type="hidden" name="screen" value="VAL" />
+		 <input type="hidden" name="targetName" value="" />
+		 <table>
+		 		 <tr><td align="right" >Business Type&nbsp;&nbsp;</td>
+		 		 <td><input type="text" size="30" name="businessType" value="" /></td></tr>
+
+		 		 <tr><td align="right" >Company Name&nbsp;&nbsp;</td>
+		 		 <td><input type="text" size="30" name="companyName" value="" /></td></tr>
+
+		 		 <tr><td align="right" >Location&nbsp;&nbsp;</td>
+		 		 <td><input type="text" size="30" name="location" value="uk" /></td></tr>
+		 		 <tr><td align="right" ><input type="submit" name="submit" value="Search EYP" /></td></tr>
+		 </table>
+	</div>
+</form>
+
+
+<p>Created by <a href="mailto:stuart.ward@bcs.org">Suart Ward</a> 12/07/2000 last updated 10/03/2011</p>
+</body>
+</html>
