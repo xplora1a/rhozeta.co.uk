@@ -17,21 +17,9 @@
       <input type="submit" name="sa" value="Google" />
 </div></form>
 
-<div class="search-wrap--home">
-	<form id="search_form_homepage" name="x" method="POST" action="https://html.duckduckgo.com/html">
-<input id="search_form_input_homepage" type="text" size="55" autocomplete="off" name="q" tabindex="1" value="">&nbsp;
-<input id="search_button_homepage" type="submit" tabindex="2" value="DuckDuckGo" />
-<div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
-</form>
-
-</div>
-
-<form accept-charset="UTF-8" action="http://search.dmoz.org/cgi-bin/search" method="get">
-	<div>
-		<input size="55" name="search" />&nbsp;
-		<input type="submit" value="dmoz.org" />
-		<a href="http://search.dmoz.org/cgi-bin/search?a.x=0"><small><i>advanced</i></small></a>
-	</div>
+<form method="post" action="https://html.duckduckgo.com/html" id="search_form_homepage" >
+	<input type="text" name="q" size="55" maxlength="255" id="search_form_input_homepage" value="" />&nbsp;
+	<input type="submit" name="b" id="search_button_homepage" value="DuckDuckGo" title="Search" alt="Search" />
 </form>
 
 <form accept-charset="UTF-8" action="http://www.wolframalpha.com/input/" id="calculate" method="get">
